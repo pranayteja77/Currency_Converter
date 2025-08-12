@@ -29,6 +29,8 @@ amount = float(input("Enter amount: "))
 from_currency = input("From currency (e.g., USD): ").upper()
 to_currency = input("To currency (e.g., INR): ").upper()
 
-result = convert(amount, from_currency, to_currency)
-if result:
-    print(f"{amount} {from_currency} = {result:.2f} {to_currency}")
+
+
+res = convert(amount, from_currency, to_currency)
+if res:
+    print(f"{amount} {from_currency} = {res:.2f} {to_currency}")
