@@ -5,8 +5,6 @@ BASE_URL = "http://data.fixer.io/api/latest"
 
 def convert(amount, from_currency, to_currency):
     params = {
-
-        
         "access_key": API_KEY
     }
     response = requests.get(BASE_URL, params=params)
